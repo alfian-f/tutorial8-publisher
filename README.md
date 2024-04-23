@@ -11,4 +11,7 @@ Both the publisher and the subscriber use the same message broker. This makes th
 
 ## Screenshots
 ### Running RabbitMQ
-![RabbitMQ page](assets/image.png)
+![RabbitMQ page](assets/image1.png)
+
+### Sending and processing event
+![VSCode Terminal](assets/image2.png)
