@@ -15,3 +15,6 @@ Both the publisher and the subscriber use the same message broker. This makes th
 
 ### Sending and processing event
 ![VSCode Terminal](assets/image2.png)
+
+### Monitoring chart based on publisher
+![VSCode Terminal](assets/image3.png)
