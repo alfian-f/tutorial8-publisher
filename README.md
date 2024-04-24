@@ -15,6 +15,8 @@ Both the publisher and the subscriber use the same message broker. This makes th
 
 ### Sending and processing event
 ![VSCode Terminal](assets/image2.png)
+When I run the subscriber and publisher programs, they both connect to the AMQP broker at "amqp://guest:guest@localhost:5672". The publisher sends messages, which the subscriber then receives. Publisher sends out multiple UserCreatedEventMessage instances and then the subscriber prints each of the 5 messages it gets.
 
 ### Monitoring chart based on publisher
 ![VSCode Terminal](assets/image3.png)
+The chart shows how active the publisher is in sending messages to the subscriber. By looking at the spikes in the second chart, you can see if the publisher's load is light or heavy based on the message rates. This indicates how many messages are being sent and processed in a specific period.
